@@ -81,4 +81,5 @@ async def on_message(message):
           await channel.send("Logged by {}".format(user))
           print("Logged by {}. Logged data: {}. Row: {}".format(user,msgstr,count2))
           break
+client.run(TOKEN)
 
